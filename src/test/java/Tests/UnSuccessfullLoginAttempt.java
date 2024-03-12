@@ -12,17 +12,14 @@ public class UnSuccessfullLoginAttempt extends BaseTest{
 
 
     @Test(alwaysRun = true)
-    public void TestUnSuccessfullLogin() throws InterruptedException{
+    public void TestUnSuccessfullLogin(){
 
         loginScreen = new LoginScreen(driver);
         loginScreen.EnterInValidUserName();
         loginScreen.EnterInValidPassword();
         loginScreen.ClickOnLoginBtn();
-        Thread.sleep(3000);
         SoftAssert softAssert = new SoftAssert(); 
-        // Perform your test steps and assertions
-        String actualValue = "Invaild user name or password";
-        softAssert.assertEquals(loginScreen.GetErrorMessage(),actualValue);
+        softAssert.assertEquals(loginScreen.GetErrorMessage(),"Invaild user name or password");
         softAssert.assertAll();
 }
 }

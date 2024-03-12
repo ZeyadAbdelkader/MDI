@@ -5,6 +5,10 @@ package Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
+
 
 
 
@@ -39,17 +43,15 @@ public class LoginScreen extends BasePage {
         LoginBtn.click();
     }
 
-    public String GetErrorMessage(){
-    	
-    	ErrorMessage.getText();
-        return ErrorMessage.getText();
-    
-    	
-     }
-    
+    public String GetErrorMessage() {
+    	   WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    	   wait.until(ExpectedConditions.visibilityOf(ErrorMessage));
+    	   return ErrorMessage.getText();
+    	}
+
+    }
     
 
-}
 		
 
 
