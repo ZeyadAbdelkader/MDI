@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MDI Integration Tests"  configfailurepolicy="continue">
+
+
+    <test parallel="classes" thread-count="1" name="MDI Integration Tests">
+        <!--  <packages>
+              <package name="com.sumerge.alinma.tests"></package>
+          </packages> -->
+        <classes>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
