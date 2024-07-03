@@ -45,7 +45,7 @@ public class AllVideoGamesPage extends BasePage {
 		for(WebElement element:searchresults) {
 			int Price = Integer.valueOf(element.getText().replace(",","")); 
 			System.out.println(Price);
-			if(Price<=20) {
+			if(Price<=15000) {
 				
 				act.keyDown(Keys.CONTROL).click(element).keyUp(Keys.CONTROL).build().perform();
 				AddProductToCart();
