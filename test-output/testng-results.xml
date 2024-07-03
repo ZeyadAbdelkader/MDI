@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-12T18:57:22 EET" name="Default suite" finished-at="2024-03-12T18:57:35 EET" duration-ms="13011">
+  <suite started-at="2024-07-03T20:45:43 EET" name="Default suite" finished-at="2024-07-03T20:51:13 EET" duration-ms="330412">
     <groups>
     </groups>
-    <test started-at="2024-03-12T18:57:22 EET" name="Default test" finished-at="2024-03-12T18:57:35 EET" duration-ms="13011">
-      <class name="Tests.UnSuccessfullLoginAttempt">
-        <test-method is-config="true" signature="startDrivere()[pri:0, instance:Tests.UnSuccessfullLoginAttempt@28f3b248]" started-at="2024-03-12T18:57:18 EET" name="startDrivere" finished-at="2024-03-12T18:57:22 EET" duration-ms="4316" status="PASS">
+    <test started-at="2024-07-03T20:45:43 EET" name="Default test" finished-at="2024-07-03T20:51:13 EET" duration-ms="330412">
+      <class name="Tests.PurchaseFromAmazon">
+        <test-method is-config="true" signature="startDrivere()[pri:0, instance:Tests.PurchaseFromAmazon@28f3b248]" started-at="2024-07-03T20:45:37 EET" name="startDrivere" finished-at="2024-07-03T20:45:43 EET" duration-ms="5893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDrivere -->
-        <test-method signature="TestUnSuccessfullLogin()[pri:0, instance:Tests.UnSuccessfullLoginAttempt@28f3b248]" started-at="2024-03-12T18:57:22 EET" name="TestUnSuccessfullLogin" finished-at="2024-03-12T18:57:35 EET" duration-ms="12944" status="PASS">
+        <test-method signature="PurchaseAmazon()[pri:0, instance:Tests.PurchaseFromAmazon@28f3b248]" started-at="2024-07-03T20:45:43 EET" name="PurchaseAmazon" finished-at="2024-07-03T20:51:13 EET" duration-ms="330385" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestUnSuccessfullLogin -->
-      </class> <!-- Tests.UnSuccessfullLoginAttempt -->
+        </test-method> <!-- PurchaseAmazon -->
+      </class> <!-- Tests.PurchaseFromAmazon -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

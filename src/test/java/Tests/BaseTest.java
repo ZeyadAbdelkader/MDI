@@ -11,13 +11,14 @@ public class BaseTest {
 @BeforeSuite
 	public void startDrivere() {
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\zyasser\\Glamera\\TaskAutomation\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\zyasser\\MDI\\MDI\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.navigate().to("https://stage.glamera.com/");
+		driver.navigate().to("https://www.amazon.eg/");
 	
 		
 		
 	}
+
 
 }
