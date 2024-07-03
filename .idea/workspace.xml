@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d57612e-3173-4f24-b9db-66f8b1e6084b" name="Changes" comment="" />
+    <list default="true" id="9d57612e-3173-4f24-b9db-66f8b1e6084b" name="Changes" comment="FirstCommit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/environment.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MDI/Task/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MDI/Task/utilities/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SuccessfulLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WrongEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WrongPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WrongToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/MDI/Task/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/MDI/Task/utilities/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/environment.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SuccessfulLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/WrongEmail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/WrongPassword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/WrongToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,17 +48,19 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2iJkiStUiaDSkLcvaI7DDcOPFAM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/zyasser/MDI/M",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="TestNG.WrongEmail.InvalidEmail">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -113,6 +139,18 @@
       <option name="presentableId" value="Default" />
       <updated>1719216194748</updated>
     </task>
+    <task id="LOCAL-00001" summary="FirstCommit">
+      <created>1720036470811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720036470811</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FirstCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="FirstCommit" />
   </component>
 </project>
